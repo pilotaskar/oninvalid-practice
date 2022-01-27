@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oninvalid</title>
+</head>
+
+<body>
+
+
+    <form>
+        <!-- Oninvalid is start to work when sth happening wrong with it -->
+        Your name:
+        <input type="text" oninvalid="alert('Please write your name!!!')" ; required>
+        
+
+        <!-- for working submit button you have to use form -->
+        <input type="submit">
+        <br><br>
+
+        If you submit without writing your name you'll see alert 
+
+    </form>
+
+</body>
+
+</html>
